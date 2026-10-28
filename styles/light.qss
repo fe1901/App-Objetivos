@@ -1,0 +1,231 @@
+/*  Pagina inicial  */
+
+QWidget{
+    background-color: #0f22d0;
+    font-family: "STIX"
+}
+
+QLabel#titulo_inicial{ 
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+QComboBox#temas {
+    background-color: #0d1eb5;
+    color: #ffffff;
+    width: 40px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+QComboBox#temas QAbstractItemView {
+    background-color: #0d1eb5;
+    color: #000000;
+    selection-background-color: #490882;
+    selection-color: #bfb9b9;
+    outline: 0;
+}
+
+QComboBox#temas QAbstractItemView::item {
+    padding-left: 10px;
+    min-height: 25px;
+}
+
+QPushButton#btn_nova_lista{
+    background-color: #b1afb4;
+    color: #000000;
+    font-size: 30px;
+    margin-top: 110px;
+    height: 50px;
+}
+
+QPushButton#btn_ver_lista{
+    background-color: #b1afb4;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+QPushButton#btn_imp_lista{
+    background-color: #b1afb4;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 10px;
+    height: 40px;
+}
+
+QWidget#espaco{
+    height: 20px;
+}
+
+/* Pagina de listas  */
+
+QPushButton#btn_voltar{
+    background-color: #0d1eb5;
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+QLabel#titulo_lista{ 
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+QLabel#sem_metas{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+QFrame#frame_metas{
+    background-color: #b1afba;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 50px;
+}
+
+QPushButton#btn_meta{
+    background-color: #b1afba;
+    color: #000000;
+    font-size: 20px;
+    text-align: left; 
+    border: none;
+}
+
+QPushButton#btn_exportar{
+    background-color: #71a4ec;
+    color: #000000;
+    font-size: 13px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+QPushButton#btn_deletar{
+    background-color: #f21111;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+/*  Página Objetivos */
+
+QLabel#titulo_metas{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+QFrame#frame_lista_meta{
+   margin: 10px;
+   border-radius: 10px;
+}
+
+QPushButton#btn_verificar{
+    background-color: #13a003;
+    color: #000000;
+    font-size: 13px;
+}
+
+QPushButton#btn_verificar_pendente{
+    background-color: #6c6f6c;
+    color: #000000;
+    font-size: 13px;
+}
+
+QPushButton#btn_verificar_erro{
+    background-color: #ff0202;
+    color: #000000;
+    font-size: 13px;
+}
+
+QLabel#objetivo{
+    font-size: 18px;
+    color: #ffffff;
+}
+
+QPushButton#btn_editar{
+    background-color: #4ff712;
+    color: #000000;
+    font-size: 13px;
+}
+
+QPushButton#btn_nova_meta{
+    background-color: #4951ca;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+QPushButton#btn_deletar_meta{
+    background-color: #f21111;
+    color: #000000;
+    font-size: 13px;
+}
+
+QLabel#prazo_final{
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* Página de Criação de Listas */
+
+QLabel#titulo_criacao{ 
+    font-size: 25px;
+    color: #afaeae;
+    margin-top: 14px;
+}
+
+QFrame#frame_criacao{
+   margin: 10px;
+}
+
+QLineEdit#input_titulo_lista{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #033a92;
+}
+
+QTextEdit#input_meta{
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #033a92;
+
+}
+
+QDateEdit#input_prazo{
+    color: #ffffff;
+    font-size: 15px;
+    background-color: #033a92;
+}
+
+QPushButton#btn_enviar{
+    background-color: #033a92;
+    color: #faf9f9;
+    font-size: 15pxpx;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+QPushButton#btn_limpar{
+    background-color: #033a92;
+    color: #faf9f9;
+    font-size: 15pxpx;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
