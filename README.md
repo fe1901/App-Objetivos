@@ -18,4 +18,4 @@ Terceiro rode o ListaDeObjetivos
 
 ## Dowload
 
-Baixe a versão mais recente na página de[Release](https://github.com/fe1901/App-Objetivos/releases/tag/Release)
+Baixe a versão mais recente na página de [Release](https://github.com/fe1901/App-Objetivos/releases/tag/Release)
