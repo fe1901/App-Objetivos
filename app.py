@@ -509,8 +509,7 @@ class tela_metas(QtWidgets.QWidget):
                         
                     self.btn_verificar = QtWidgets.QPushButton("O")
                     self.btn_verificar.setObjectName("btn_verificar_pendente")
-                    self.btn_verificar.setMaximumWidth(30)
-                    self.btn_verificar.setMaximumHeight(30)
+                    self.btn_verificar.setFixedSize(30, 30)
                     self.btn_verificar.clicked.connect(lambda checked = False, id = id, estado = estado: self.completar_meta(id, estado) )
                     
                     self.layout_Obje.addWidget(self.btn_verificar)
@@ -519,8 +518,7 @@ class tela_metas(QtWidgets.QWidget):
                     
                     self.btn_verificar = QtWidgets.QPushButton("✔")
                     self.btn_verificar.setObjectName("btn_verificar")
-                    self.btn_verificar.setMaximumWidth(30)
-                    self.btn_verificar.setMaximumHeight(30)
+                    self.btn_verificar.setFixedSize(30, 30)
                     self.btn_verificar.clicked.connect(lambda checked = False, id = id, estado = estado: self.completar_meta(id, estado) )
 
                     self.layout_Obje.addWidget(self.btn_verificar)
@@ -528,8 +526,7 @@ class tela_metas(QtWidgets.QWidget):
                     
                     self.btn_verificar = QtWidgets.QPushButton("E")
                     self.btn_verificar.setObjectName("btn_verificar_erro")
-                    self.btn_verificar.setMaximumWidth(30)
-                    self.btn_verificar.setMaximumHeight(30)
+                    self.btn_verificar.setFixedSize(30, 30)
                     self.btn_verificar.clicked.connect(lambda checked = False, id = id, estado = estado: self.completar_meta(id, estado) )
 
                     self.layout_Obje.addWidget(self.btn_verificar)    
@@ -549,8 +546,7 @@ class tela_metas(QtWidgets.QWidget):
             
                 self.btn_editar = QtWidgets.QPushButton("E")
                 self.btn_editar.setObjectName("btn_editar")
-                self.btn_editar.setMaximumHeight(30)
-                self.btn_editar.setMaximumWidth(30)
+                self.btn_editar.setFixedSize(30, 30)
                 self.btn_editar.clicked.connect(lambda checked = False, id =id, meta_atual = nome_meta: self.editar_meta(id, meta_atual))
                 self.layout_Obje.addWidget(self.btn_editar)
                 
@@ -558,8 +554,7 @@ class tela_metas(QtWidgets.QWidget):
                     
                 self.btn_deletar = QtWidgets.QPushButton("X")
                 self.btn_deletar.setObjectName("btn_deletar_meta")
-                self.btn_deletar.setMaximumWidth(30)
-                self.btn_deletar.setMaximumHeight(30)
+                self.btn_deletar.setFixedSize(30, 30)
                 self.btn_deletar.clicked.connect(lambda checked = False, id = id: self.apagar_meta(id))
                 self.layout_Obje.addWidget(self.btn_deletar)
                 

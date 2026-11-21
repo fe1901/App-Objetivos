@@ -6,9 +6,8 @@ App desktop em Pyside6 para criar listas de metas com prazo.
 
 Primeiro baixe o arquivo .zip e extraia
 
-
 Segundo com Python 3.10+:** baixe o código e execute `baixar.bat` (Windows)
-ou `./baixar.sh` (Linux/macOS).
+ou `./baixar.sh` (Linux), lembre de colocar o `baixar.sh` como programar nas permições do arquivo.
 
 Terceiro rode o ListaDeObjetivos
 
